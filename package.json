@@ -8,6 +8,11 @@
     "start": "wrangler dev"
   },
   "devDependencies": {
+    "typescript": "^5.5.2",
     "wrangler": "^3.60.3"
+  },
+  "dependencies": {
+    "@cloudflare/workers-types": "^4.20240620.0",
+    "fuse.js": "^7.0.0"
   }
 }
